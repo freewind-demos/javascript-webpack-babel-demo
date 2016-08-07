@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0"
+  }
 }

@@ -8,5 +8,5 @@ class Hello {
 	}
 }
 
-new Hello("Freewind").hello();
+export default Hello;
 

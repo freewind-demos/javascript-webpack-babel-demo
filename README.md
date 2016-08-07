@@ -21,7 +21,7 @@ echo '{ "presets": ["es2015"] }' > .babelrc
 Then 
 
 ```
-babel index.js | node
+babel-node  index --ignore "node_modules"
 ```
 
 It will print:
