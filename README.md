@@ -1,10 +1,7 @@
-Babel6 Es6 Demo
-===============
-
-We use old babel6 in this demo, current new version is babel 7.
+Babel Es6 Class Import Export Demo
+==================================
 
 ```
-brew install nodejs
 npm install
 npm start
 ```

@@ -1,11 +1,3 @@
-class Hello {
-	constructor(name) {
-		this.name = name;
-	}
+import User from './user';
 
-	hello() {
-		console.log("Hello, " + this.name);
-	}
-}
-
-export default Hello;
+new User('Freewind').hello();

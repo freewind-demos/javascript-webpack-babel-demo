@@ -1,15 +1,11 @@
 {
   "scripts": {
-    "start": "babel-node index"
-  },
-  "engines": {
-    "node": ">=6.0.0"
-  },
-  "dependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-node6": "^11.0.0"
+    "start": "babel-node hello"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
   }
 }
