@@ -1,8 +1,4 @@
 {
   "presets": [ "es2015" ],
-
-  // Notice!
-  // `ignore` is actually ignored due to this bug:
-  // https://phabricator.babeljs.io/T6726
   "ignore": [ "node_modules/"]
 }

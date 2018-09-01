@@ -1,30 +1,15 @@
-How to run
-===========
+Babel6 Es6 Demo
+===============
 
-Install babel globally for conveniency:
-
-```
-npm install -g babel-cli
-```
-
-Be careful, it's `babel-cli` not `babel` when installing, but the command it provides is `babel`.
-
-Then check the version `babel version` and make sure it is `>= 6.x`.
-
-In the **project root** (not `~`):
+We use old babel6 in this demo, current new version is babel 7.
 
 ```
-npm install babel-preset-es2015 --save-dev
-echo '{ "presets": ["es2015"] }' > .babelrc
+brew install nodejs
+npm install
+npm start
 ```
 
-Then 
-
-```
-babel-node  index --ignore "node_modules"
-```
-
-It will print:
+Will print:
 
 ```
 Hello, Freewind
